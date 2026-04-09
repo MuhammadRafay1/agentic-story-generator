@@ -89,7 +89,7 @@ class ToolRegistry:
     def _generate_script_segment(self, prompt: str, max_tokens: int = 1024) -> dict:
         """Call HF Serverless Inference API to generate screenplay JSON from a user prompt."""
         system = (
-            "You are a professional screenplay writer. "
+            "You are a professional screenplay writer tasked to write screenplays."
             "Given a user prompt, generate a structured multi-scene screenplay as valid JSON only. "
             "Return ONLY valid JSON with this exact schema, no extra text:\n"
             '{"title": "...", "scenes": [{"scene_id": 1, "heading": "INT. LOCATION - DAY", '
