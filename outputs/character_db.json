@@ -1,0 +1,37 @@
+{
+    "characters": {
+        "JIMMY": {
+            "personality": "To be defined",
+            "appearance": "To be defined",
+            "style": "Cinematic",
+            "image_ref": "",
+            "stock_refs": [
+                "stock://footage/JIMMY_ref_0",
+                "stock://footage/JIMMY_ref_1",
+                "stock://footage/JIMMY_ref_2"
+            ]
+        },
+        "TOMMY": {
+            "personality": "To be defined",
+            "appearance": "To be defined",
+            "style": "Cinematic",
+            "image_ref": "",
+            "stock_refs": [
+                "stock://footage/TOMMY_ref_0",
+                "stock://footage/TOMMY_ref_1",
+                "stock://footage/TOMMY_ref_2"
+            ]
+        },
+        "HARRY": {
+            "personality": "To be defined",
+            "appearance": "To be defined",
+            "style": "Cinematic",
+            "image_ref": "",
+            "stock_refs": [
+                "stock://footage/HARRY_ref_0",
+                "stock://footage/HARRY_ref_1",
+                "stock://footage/HARRY_ref_2"
+            ]
+        }
+    }
+}

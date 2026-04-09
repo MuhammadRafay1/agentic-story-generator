@@ -1,0 +1,77 @@
+{
+    "title": "Birmingham Shadows",
+    "scenes": [
+        {
+            "scene_id": 1,
+            "heading": "INT. DINGY PUB - NIGHT",
+            "action": "The dimly lit pub is filled with smoke and the low murmur of conversations. A group of rough-looking men sit around a wooden table, bottles of ale in front of them. The leader, JIMMY, a man in his mid-40s with a scar above his left eyebrow, leans back in his chair, eyeing each member of the gang.",
+            "dialogues": [
+                {
+                    "character": "JIMMY",
+                    "line": "Alright lads, we've got a job to do. The war's given us plenty of opportunities, but we need to be smart. No more small-time thefts. We're moving up."
+                },
+                {
+                    "character": "TOMMY",
+                    "line": "What do you have in mind, Jimmy?"
+                },
+                {
+                    "character": "JIMMY",
+                    "line": "We're hitting the factory on the outskirts. They've got supplies coming in from all over. We take what we can and sell it on the black market."
+                }
+            ],
+            "visual_cues": [
+                "The men nod in agreement, their faces serious.",
+                "A clock ticks loudly in the background."
+            ]
+        },
+        {
+            "scene_id": 2,
+            "heading": "EXT. FACTORY - NIGHT",
+            "action": "The factory is quiet, with only a few lights on inside. The gang approaches, dressed in dark clothing, their faces obscured by scarves. JIMMY signals for everyone to stay low and move towards the back entrance.",
+            "dialogues": [
+                {
+                    "character": "JIMMY",
+                    "line": "Remember, we go in quick and quiet. Tommy, you take the left side. Harry, you cover the right. I'll handle the door."
+                }
+            ],
+            "visual_cues": [
+                "The moon casts long shadows across the ground.",
+                "The sound of distant sirens echoes faintly."
+            ]
+        },
+        {
+            "scene_id": 3,
+            "heading": "INT. FACTORY WAREHOUSE - NIGHT",
+            "action": "Inside the warehouse, the gang moves swiftly, gathering crates and boxes. JIMMY checks his watch, his eyes darting around nervously.",
+            "dialogues": [
+                {
+                    "character": "JIMMY",
+                    "line": "Hurry up, lads! We don't have much time."
+                },
+                {
+                    "character": "HARRY",
+                    "line": "Got enough here, boss. Let's get out of here."
+                }
+            ],
+            "visual_cues": [
+                "The dim lighting makes it difficult to see clearly.",
+                "The sound of footsteps and muffled voices outside grows louder."
+            ]
+        },
+        {
+            "scene_id": 4,
+            "heading": "EXT. FACTORY - NIGHT",
+            "action": "The gang exits the factory, carrying heavy bags and crates. As they reach the back alley, they hear the sound of police sirens approaching. JIMMY motions for everyone to run.",
+            "dialogues": [
+                {
+                    "character": "JIMMY",
+                    "line": "Move, move, move! They're onto us!"
+                }
+            ],
+            "visual_cues": [
+                "The gang scatters, disappearing into the night.",
+                "Police cars arrive, officers jumping out and shouting orders."
+            ]
+        }
+    ]
+}
