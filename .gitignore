@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+*.env
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Memory index
+memory/faiss_index/
+
+# Project specific
+outputs/images/*
+!outputs/images/.gitkeep
