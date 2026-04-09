@@ -1,0 +1,12 @@
+langchain
+langgraph
+langchain-huggingface
+huggingface-hub
+sentence-transformers
+faiss-cpu
+pydantic
+pydantic-settings
+python-dotenv
+requests
+Pillow
+numpy
