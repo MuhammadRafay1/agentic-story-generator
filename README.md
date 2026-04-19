@@ -1,10 +1,8 @@
-# Writer's Room — PROJECT MONTAGE Phase 1
+# Writer's Room
 
-Autonomous multi-agent system for structured story and image generation.
+Multi-agent system for structured story and image generation.
 
 ## Overview
-
-This project implements Phase 1 of PROJECT MONTAGE — an Agentic AI system that transforms raw user intent into structured, machine-readable narrative scripts.
 
 The system follows a multi-agent architecture where specialized agents collaborate using shared memory and are orchestrated through LangGraph workflows.
 
@@ -83,7 +81,7 @@ OUTPUT_DIR=outputs
 
 ```bash
 # Auto mode — LLM generates from your prompt:
-python main.py --mode auto --input "A cyberpunk detective story set in 2087"
+python main.py --mode auto --input "A story about criminal gang in Birmingham 1940"
 
 # Manual mode — validate your own script JSON:
 python main.py --mode manual --input path/to/script.json
