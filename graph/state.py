@@ -1,6 +1,11 @@
 
 
-from typing import TypedDict, List, Dict, Any
+from typing import TypedDict, List, Dict, Any, Annotated
+import operator
+
+class SceneTask(TypedDict):
+    task_id: str
+    scene: Dict[str, Any]
 
 
 class AgentState(TypedDict):
@@ -28,6 +33,13 @@ class AgentState(TypedDict):
     # 🔹 Control / Debugging
     error: str                  # Error message (if any)
 
+    # 🔹 Phase 2 Layer
+    scene_tasks: List[SceneTask]
+    audio_results: Annotated[List[Dict[str, Any]], operator.add]
+    video_results: Annotated[List[Dict[str, Any]], operator.add]
+    face_swap_results: Annotated[List[Dict[str, Any]], operator.add]
+    final_scenes: Annotated[List[str], operator.add]
+
 
 def get_initial_state(user_input: str, mode: str = "auto") -> AgentState:
     return {
@@ -38,5 +50,10 @@ def get_initial_state(user_input: str, mode: str = "auto") -> AgentState:
         "characters": {},
         "images": [],
         "memory_refs": [],
-        "error": ""
+        "error": "",
+        "scene_tasks": [],
+        "audio_results": [],
+        "video_results": [],
+        "face_swap_results": [],
+        "final_scenes": []
     }
